@@ -1,0 +1,89 @@
+{
+  "@type": "EnvironmentExtensions",
+  "connections": {
+      "@type": "Connections",
+      "connection": [
+        {
+          "@type": "Connection",
+          "field": [
+            {
+              "@type": "field",
+              "id": "driverId",
+              "value": "",
+              "usesEncryption": "false",
+              "useDefault": false
+            },
+            {
+              "@type": "field",
+              "id": "username",
+              "value": "Ganesh",
+              "usesEncryption": "false",
+              "useDefault": false
+            },
+            {
+              "@type": "field",
+              "id": "password",
+              "value": "#{}#",
+              "usesEncryption": "true",
+              "useDefault": false
+            },
+            {
+              "@type": "field",
+              "id": "host",
+              "value": "",
+              "usesEncryption": "false",
+              "useDefault": false
+            },
+            {
+              "@type": "field",
+              "id": "port",
+              "value": "",
+              "usesEncryption": "false",
+              "useDefault": false
+            },
+            {
+              "@type": "field",
+              "id": "dbname",
+              "value": "Hello",
+              "usesEncryption": "false",
+              "useDefault": false
+            },
+            {
+              "@type": "field",
+              "id": "className",
+              "value": "",
+              "usesEncryption": "false",
+              "useDefault": false
+            },
+            {
+              "@type": "field",
+              "id": "urlFormat",
+              "value": "",
+              "usesEncryption": "false",
+              "useDefault": false
+            }
+          ],
+          "id": "a3d0f787-1afc-41b7-bd59-49601c4e295b",
+          "name": "DatabaseSQL_Boomi"
+        },
+        {
+          "@type": "Connection",
+          "field": [
+            {
+              "@type": "field",
+              "id": "queueComponentId",
+              "value": "",
+              "usesEncryption": "false",
+              "useDefault": false
+            }
+          ],
+          "id": "87954940-3018-4f86-8698-ebff7e01e080",
+          "name": "Queue_ServiceNow"
+        }
+      ]
+    },
+  "environmentId": "489e0d29-0064-4385-b0ae-6746f700daba",
+  "partial": "true",
+  "extensionGroupId": "",
+  "id": "489e0d29-0064-4385-b0ae-6746f700daba"
+}
